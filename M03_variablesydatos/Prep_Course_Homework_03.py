@@ -6,14 +6,15 @@
 # 1) Crear una variable que contenga un elemento del conjunto de números enteros y luego imprimir por pantalla
 
 # In[7]:
-
+>>> a = 8
+>>> print(a)
 
 
 
 # 2) Imprimir el tipo de dato de la constante 8.5
 
 # In[3]:
-
+type(8.5)
 
 
 
@@ -21,7 +22,7 @@
 # 3) Imprimir el tipo de dato de la variable creada en el punto 1
 
 # In[8]:
-
+type(a)
 
 
 
@@ -29,21 +30,22 @@
 # 4) Crear una variable que contenga tu nombre
 
 # In[2]:
-
+>>> mi_nombre= "Hernán ernesto iza"
 
 
 
 # 5) Crear una variable que contenga un número complejo
 
 # In[3]:
-
+>>> n_complejo = 9+9j
 
 
 
 
 # 6) Mostrar el tipo de dato de la variable crada en el punto 5
 
-# In[4]:
+# In[4]
+type(n_complejo)
 
 
 
@@ -52,14 +54,16 @@
 # 7) Crear una variable que contenga el valor del número Pi redondeado a 4 decimales
 
 # In[1]:
+>>> pi = 3,1415
 
 
-pi = 3.1416
 
 
 # 8) Crear una variable que contenga el valor 'True' y otra que contenga el valor True. ¿Se trata de lo mismo?
 
 # In[3]:
+>>> var1 = True
+>>> var2 = 'True'
 
 
 
@@ -69,7 +73,7 @@ pi = 3.1416
 
 # In[5]:
 
-
+>>> print('la variable 1 es tipo ', ' y la variable 2 es tipo') , type(var2))
 
 
 
